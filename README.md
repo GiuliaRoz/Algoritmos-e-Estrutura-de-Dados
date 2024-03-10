@@ -13,7 +13,7 @@
 
 
 
-"Vetor nomes = new Vetor(10);"
+    Vetor nomes = new Vetor(10);
 <br/>    
 - dinâmica: não há pré-definição máxima de tamanho. Pode aumentar conforme necessário, devido à implementação de métodos que permitem adicionar mais elementos.
 <br/>
@@ -21,7 +21,7 @@
 
 
 
-  "public class Main {
+    public class Main {
     Vetor produtos;
 
     public static void main(String[] args) {
@@ -37,7 +37,7 @@
 
 
 
-    "List<String> nomes = new ArrayList<>();"
+    List<String> nomes = new ArrayList<>();
 <br/>
   A **Fila** é uma estrutura que segue o princípio “First In, First Out” (FIFO), em que o primeiro elemento a ser adicionado também será o primeiro a ser removido. Além disso, não é permitida a duplicação de dados, cada elemento é único. Uma alusão tangível a esse conceito seria uma fila de restaurante, conforme a ordem de chegada são disponibilizadas mesas para os clientes.
 <br/>
@@ -45,7 +45,7 @@
 
 
 
-    "Queue<String> fila = new LinkedList<>();"
+    Queue<String> fila = new LinkedList<>();
 <br/>
   **Pilhas** seguem o princípio “Last in, First Out” (LIFO), o último elemento adicionado será também o primeiro a ser removido, já que está no topo da pilha, análogo a uma pilha de pratos na realidade. As operações comumente empregadas são Pop (remove elemento do topo da pilha), Push (adiciona elemento) e Peek (retorna o último elemento sem efetuar sua remoção).
 <br/>
@@ -53,5 +53,5 @@
 
 
 
-    "Stack<String> pilha = new Stack<>();"
+    Stack<String> pilha = new Stack<>();
 <br/>
