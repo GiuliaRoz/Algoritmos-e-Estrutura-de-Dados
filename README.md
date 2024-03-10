@@ -15,7 +15,7 @@
 
     Vetor nomes = new Vetor(10);
 <br/>    
--  dinâmica: não há pré-definição máxima de tamanho. Pode aumentar conforme necessário, devido à implementação de métodos que permitem adicionar mais elementos.
+- dinâmica: não há pré-definição máxima de tamanho. Pode aumentar conforme necessário, devido à implementação de métodos que permitem adicionar mais elementos.
 <br/>
 
 
