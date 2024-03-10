@@ -47,7 +47,7 @@
 
 
 
-  Queue<String> fila = new LinkedList<>();
+    Queue<String> fila = new LinkedList<>();
 <br/>
 
   **Pilhas** seguem o princípio “Last in, First Out” (LIFO), o último elemento adicionado será também o primeiro a ser removido, já que está no topo da pilha, análogo a uma pilha de pratos na realidade. As operações comumente empregadas são Pop (remove elemento do topo da pilha), Push (adiciona elemento) e Peek (retorna o último elemento sem efetuar sua remoção).
