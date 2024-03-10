@@ -30,10 +30,10 @@
     }
 
     public Main() {
-        produtos = new Vetor();"
+        produtos = new Vetor();
 <br/>
 
-  Uma **Lista** é composta por várias classes, como ArrayList e LinkedList, que organizam objetos em uma coleção cuja sequência é ordenada e com índices associados. Sob essa ótica, a aplicação de métodos proporciona a edição da lista, seja adicionando um elemento seja removendo-o. Sua aplicação é preferida quando se há grande quantidade de dados a serem adicionados e removidos de forma ordenada ou quando não há necessidade iminente de acesso pelo índice, análoga à estrutura Lista tem-se uma lista de afazeres do cotidiano.
+  Uma **Lista** é composta por várias classes, como ArrayList e LinkedList, que organizam objetos em uma coleção cuja sequência é ordenada e com índices associados. Sob essa ótica, a aplicação de métodos proporciona a edição da lista, seja adicionando um elemento seja removendo-o. Sua utilização é preferida quando se há grande quantidade de dados a serem adicionados e removidos de forma ordenada ou quando não há necessidade iminente de acesso pelo índice, análoga à estrutura Lista tem-se uma lista de afazeres do cotidiano.
 <br/>
 
 
