@@ -10,8 +10,8 @@
 ## c. Explique e exemplifique as estruturas: array (estático e dinâmico), lista, fila e pilha.
 
   Um Array é uma estrutura que proporciona a armazenagem de dados de um mesmo tipo, acessados através de um índice. Sua utilização é preferível quando se conhece a quantidade de elementos de uma coleção e a ordenação é importante. Entre os tipos de Arrays existem duas definições:
-  - estática: tem o seu tamanho determinado no momento da criação, ou seja, é fixo e não pode ser alterado durante a execução do programa.
-  - dinâmica: não há pré-definição máxima de tamanho. Pode aumentar conforme necessário, devido à implementação de métodos que permitem adicionar mais elementos
+  - estática: tem o seu tamanho determinado no momento da criação, ou seja, é fixo e não pode ser alterado durante a execução do programa;
+  - dinâmica: não há pré-definição máxima de tamanho. Pode aumentar conforme necessário, devido à implementação de métodos que permitem adicionar mais elementos;
 
   Uma Lista é composta por várias classes, como ArrayList e LinkedList, que organizam objetos em uma coleção cuja sequência é ordenada e com índices associados. Sob essa ótica, a aplicação de métodos proporciona a edição da lista, seja adicionando um elemento seja removendo-o. Sua aplicação é preferida quando se há grande quantidade de dados a serem adicionados e removidos de forma ordenada ou quando não há necessidade iminente de acesso pelo índice, análoga à estrutura Lista tem-se uma lista de afazeres do cotidiano.
   
