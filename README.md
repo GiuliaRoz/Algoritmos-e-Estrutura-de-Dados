@@ -31,6 +31,7 @@
     public Main() {
         produtos = new Vetor();"
 <br/>
+
   Uma **Lista** é composta por várias classes, como ArrayList e LinkedList, que organizam objetos em uma coleção cuja sequência é ordenada e com índices associados. Sob essa ótica, a aplicação de métodos proporciona a edição da lista, seja adicionando um elemento seja removendo-o. Sua aplicação é preferida quando se há grande quantidade de dados a serem adicionados e removidos de forma ordenada ou quando não há necessidade iminente de acesso pelo índice, análoga à estrutura Lista tem-se uma lista de afazeres do cotidiano.
 <br/>
 
@@ -39,14 +40,16 @@
 
     List<String> nomes = new ArrayList<>();
 <br/>
+
   A **Fila** é uma estrutura que segue o princípio “First In, First Out” (FIFO), em que o primeiro elemento a ser adicionado também será o primeiro a ser removido. Além disso, não é permitida a duplicação de dados, cada elemento é único. Uma alusão tangível a esse conceito seria uma fila de restaurante, conforme a ordem de chegada são disponibilizadas mesas para os clientes.
 <br/>
 
 
 
 
-    Queue<String> fila = new LinkedList<>();
+  Queue<String> fila = new LinkedList<>();
 <br/>
+
   **Pilhas** seguem o princípio “Last in, First Out” (LIFO), o último elemento adicionado será também o primeiro a ser removido, já que está no topo da pilha, análogo a uma pilha de pratos na realidade. As operações comumente empregadas são Pop (remove elemento do topo da pilha), Push (adiciona elemento) e Peek (retorna o último elemento sem efetuar sua remoção).
 <br/>
 
