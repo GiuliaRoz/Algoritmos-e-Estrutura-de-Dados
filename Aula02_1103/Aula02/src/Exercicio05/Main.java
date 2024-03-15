@@ -72,6 +72,7 @@ public class Main {
             System.out.println("G - Finzalizar");
             resposta = tec.next().toUpperCase().charAt(0);
         }
+        tec.close();
 
     }
 
