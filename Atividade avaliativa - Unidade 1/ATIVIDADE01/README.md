@@ -6,19 +6,19 @@ A escolha desta estrutura se deu pelos seguintes motivos:
 
 
 
-        -         Possui grande eficiência nos métodos de adicionar e remover, que foi um dos requisistos determinados na questão. Considerando que o usuário siga a ordem de inserção de tarefas para realizá-las, a primeira tarefa adicionada deverá ser a primeira concluída (removida), deste modo, o princípio "First in - First Out" se adequa ao enunciado proposto, em que, o método 'remove()' retira com eficiência a primeira tarefa da Fila;
+ -  Possui grande eficiência nos métodos de adicionar e remover, que foi um dos requisistos determinados na questão. Considerando que o usuário siga a ordem de inserção de tarefas para realizá-las, a primeira tarefa adicionada deverá ser a primeira concluída (removida), deste modo, o princípio "First in - First Out" se adequa ao enunciado proposto, em que, o método 'remove()' retira com eficiência a primeira tarefa da Fila;
 <br/>
 
 
 
 
-        -         A visualização da tarefa seguinte deveria ser sem necessidade de percorrer toda a estrutura, portanto, através do método 'peek()', é possível acessar somente o primeiro elemento da Fila de forma eficiente e adequada de acordo com os requisitos estabelecidos no enunciado;
+- A visualização da tarefa seguinte deveria ser sem necessidade de percorrer toda a estrutura, portanto, através do método 'peek()', é possível acessar somente o primeiro elemento da Fila de forma eficiente e adequada de acordo com os requisitos estabelecidos no enunciado;
 <br/>
 
 
 
 
-        -         É uma estrutura que permite a inserção de grande quantidade de dados, sendo performática e escalável;
+- É uma estrutura que permite a inserção de grande quantidade de dados, sendo performática e escalável;
 <br/>
 <br/>
 Observação complementar: poderia também utilizar-se da Lista LinkedList, permitindo que o usuário escolhesse qual a ordem de conclusão das tarefas através do nome e sem seguir o padrão "FIFO".
