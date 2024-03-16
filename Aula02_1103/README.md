@@ -10,7 +10,7 @@
 
 ## LinkedList ##
 <br/>
-    Armazena objetos de modo duplamente encadeado, nesse sentido, cada elemento será conectado aos dados que ocupam a posição anterior e a subsequente a sua, funcionando como uma lista de nós. É mais performática para adicionar e remover objetos do que o ArrayList. Um exemplo de sua aplicação adequada seria para o controle de rotas de ônibus, que pode ter novas paradas e rotas adicionadas ou removidas de forma eficaz.
+    Armazena objetos de modo duplamente encadeado, nesse sentido, cada elemento será conectado aos dados que ocupam a posição subsequente a sua, funcionando como uma lista de nós. É mais performática para adicionar e remover objetos do que o ArrayList. Um exemplo de sua aplicação adequada seria para o controle de rotas de ônibus, que pode ter novas paradas e rotas adicionadas ou removidas de forma eficaz.
 <br/>
 
 ## HashMap ## 
