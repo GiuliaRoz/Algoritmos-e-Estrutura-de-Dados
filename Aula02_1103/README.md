@@ -15,7 +15,7 @@
 
 ## HashMap ## 
 <br/>
-    Reune pares de objetos do tipo chave/valor, em que se utiliza a chave para acessar um valor. Essa estrutura permite que uma ou mais chaves diferentes apontem para o mesmo objeto, entretanto, não há duplicidade das 'Keys'. Além disso, não aceita variáveis primitivas, portanto a dupla consiste em duas Classes/Objetos. Por conta da sua organização, o acesso aos valores se torna rápido. Um exemplo de aplicação do HashMap pode ser em uma Agenda Telefônica, na qual o valor Pessoa pode ser acessado através do seu número de telefone, que é a chave.
+    Reune pares de objetos do tipo chave/valor em que se utiliza a chave para acessar um valor. Essa estrutura permite que uma ou mais chaves diferentes apontem para o mesmo objeto, entretanto, não há duplicidade das 'Keys'. Além disso, não aceita variáveis primitivas, portanto a dupla consiste em duas Classes/Objetos. Por conta da sua organização, o acesso aos valores se torna rápido. Um exemplo de aplicação do HashMap pode ser em uma Agenda Telefônica, na qual o valor Pessoa pode ser acessado através do seu número de telefone, que é a chave.
 <br/>
 
 
