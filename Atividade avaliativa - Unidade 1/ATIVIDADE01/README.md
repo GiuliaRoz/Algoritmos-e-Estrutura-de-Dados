@@ -24,6 +24,7 @@ A escolha desta estrutura se deu pelos seguintes motivos:
 <br/>
 Observação complementar: poderia também utilizar-se da Lista LinkedList, permitindo que o usuário escolhesse qual a ordem de conclusão das tarefas através do nome e sem seguir o padrão "FIFO".
 <br/>
+<br/>
 Exemplo dos métodos solicitados com LinkedList:
 
         private void adicionar(Scanner tec) {
