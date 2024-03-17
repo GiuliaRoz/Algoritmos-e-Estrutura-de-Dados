@@ -27,25 +27,25 @@ public class Main {
             switch (resposta) {
                 case 'A':
                     System.out.println("Insira um nome: ");
-                    String cadastrado = tec.next().trim().toUpperCase();;
+                    String cadastrado = tec.next().trim().toUpperCase();
                     System.out.println(cadastrar(cadastrado));
                     break;
 
                 case 'B':
                     System.out.println("Insira o nome a ser removido: ");
-                    String removido = tec.next();
+                    String removido = tec.next().trim().toUpperCase();
                     System.out.println(remover(removido));
                     break;
 
                 case 'C':
                     System.out.println("Insira o nome que se deseja alterar: ");
-                    String alterado = tec.next().trim().toUpperCase();;
+                    String alterado = tec.next().trim().toUpperCase();
                     System.out.println(alterar(alterado, tec));
                     break;
 
                 case 'D':
                     System.out.println("Insira um termo a ser pesquisado: ");
-                    String termo = tec.next().trim().toUpperCase();;
+                    String termo = tec.next().trim().toUpperCase();
                     System.out.println(pesquisar(termo));
                     break;
 
