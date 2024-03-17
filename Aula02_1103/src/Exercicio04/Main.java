@@ -25,7 +25,7 @@ public class Main {
             switch (resposta) {
                 case 'A':
                     System.out.println("Insira um nome para cadastrá-lo: ");
-                    String nome = tec.next();
+                    String nome = tec.next().trim().toLowerCase();
                     System.out.println(cadastrar(nome));
                     break;
 
@@ -48,7 +48,6 @@ public class Main {
     }
 
     private String cadastrar(String nome) {
-        nome = nome.toLowerCase();
         if (nome != null && !(nomes.contains(nome))) {
             nomes.add(nome);
             return "Nome adicionado com sucesso!";
